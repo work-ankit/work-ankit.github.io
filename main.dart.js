@@ -24397,11 +24397,12 @@ s=!0}else s=!1
 if(s)throw A.c("You are trying to use contextless navigation without\n      a GetMaterialApp or Get.key.\n      If you are testing your app, you can use:\n      [Get.testMode = true], or if you are running your app on\n      a physical device or emulator, you must exchange your [MaterialApp]\n      for a [GetMaterialApp].\n      ")
 return r},
 a1k:function a1k(){},
-wm:function wm(a,b,c,d){var _=this
+wm:function wm(a,b,c,d,e){var _=this
 _.e=a
-_.ok=b
-_.ba=c
-_.a=d},
+_.as=b
+_.ok=c
+_.ba=d
+_.a=e},
 a1h:function a1h(a){this.a=a},
 a1g:function a1g(a){this.a=a},
 a1e:function a1e(a){this.a=a},
@@ -43825,7 +43826,7 @@ $1(a){return A.amK($.bF(),A.amv(),t.ag)},
 $S:286}
 A.II.prototype={
 M(a){var s=null,r=t.z
-return new A.wm(B.mj,!1,A.a([A.amE(s,s,s,B.mG,B.mH,B.ak,s,!1,s,!0,s,"/",!0,new A.a5g(),s,s,s,!0,!0,s,s,s,s,r),A.amE(s,s,s,B.mG,B.mH,B.ak,s,!1,s,!0,s,"/instagram",!0,new A.a5h(),s,s,s,!0,!0,s,s,s,s,r)],t.RT),s)}}
+return new A.wm(B.mj,"Instagram",!1,A.a([A.amE(s,s,s,B.mG,B.mH,B.ak,s,!1,s,!0,s,"/",!0,new A.a5g(),s,s,s,!0,!0,s,s,s,s,r),A.amE(s,s,s,B.mG,B.mH,B.ak,s,!1,s,!0,s,"/instagram",!0,new A.a5h(),s,s,s,!0,!0,s,s,s,s,r)],t.RT),s)}}
 A.a5g.prototype={
 $0(){return B.mj},
 $S:282}
@@ -78899,7 +78900,7 @@ p=A.t4(B.a7,m)
 o=A.t4(B.a7,m)
 n=$.alB().a
 if(n==null)n=m
-n=new A.nX(r,a.p1,q.e,B.Hm,m,q.gT0(),m,m,s,m,m,m,m,q.gacm(),"",m,p,o,B.y5,m,n,m,m,m,B.mw,!1,!1,!1,!1,!1,m,m,!1,m)
+n=new A.nX(r,a.p1,q.e,B.Hm,m,q.gT0(),m,m,s,m,m,m,m,q.gacm(),q.as,m,p,o,B.y5,m,n,m,m,m,B.mw,!1,!1,!1,!1,!1,m,m,!1,m)
 s=n
 return s},
 $S:475}
